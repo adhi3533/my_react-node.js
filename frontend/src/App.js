@@ -10,9 +10,18 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1>React Frontend</h1>
-      <p>Backend says: {message}</p>
+    <div
+      style={{
+        backgroundColor: "#e6f2ff",  // light blue background
+        minHeight: "100vh",
+        padding: "20px"
+      }}
+    >
+      <h1 style={{ color: "blue" }}>React Frontend</h1>
+
+      <p style={{ color: "blue", fontSize: "20px" }}>
+        Backend says: {message}
+      </p>
     </div>
   );
 }
